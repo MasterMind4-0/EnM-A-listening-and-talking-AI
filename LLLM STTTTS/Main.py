@@ -16,7 +16,7 @@ class LLM:
         
     def LLM_response(self):
         try:
-            chat_response: ChatResponse = chat(model='tst', messages=[
+            chat_response: ChatResponse = chat(model='EnM', messages=[
                 {
                     "role": "user",
                     "content": self.speech_to_text
